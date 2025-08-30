@@ -23,3 +23,5 @@ print(f"mbaeteko {nombre}, tiene {edad }")
 # tarea : usando la variante anterior llamada edad , decirme en un  print que  edad tenias hace dos años 
 #En este ejercicio mostras una logica matetica usando tu variable de edad ya declarada anteriormente, este muestra en la terminal: tenia 20 años hace dos años
 print (f"tenia {edad-2} años hace dos años")
+
+print("Cambio a la nube")
