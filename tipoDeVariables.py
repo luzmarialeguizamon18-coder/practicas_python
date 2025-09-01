@@ -30,9 +30,18 @@ accion = "ir a comprar"
 tomate = 5
 print(f"{yo},tengo que {accion},{tomate} tomates en el supermecado")
 
+############Tarea : declarar una variable que sea un numero string , luego convertir el  numero string a int y en otra variable sumarle 5.
+############finalmente hacer dos print uno que indique  que tipo de datos es la variables y otro print que muestre el valor del variable 
+cinco = "5" 
+cinco = int (cinco)
+calculo = cinco + 5
+print (type(calculo))
+print (calculo)
+
+
 # COMANDOS DE GIT PARA SUBIR EL CODIGO A LA NUBE EN ORDEN
 
 # git status: te muestra los cambios que hay en tu proyecto, si no están en verde es que tenes cosas que agregar
 # git add . este comando te agrega todos los cambios pero hasta que no haces el commit siguiente y el push no se sube nada
 # git commit -m "" y entre las comillas envias un mensaje que describa los cambios que estas subiendo a gitlab (nube)
-# git push origin main (sube los cambios a gitlab con tu mensaje del commit)
+# git push origin main (sube los cambios a gitlab con tu mensaje del commit)s
