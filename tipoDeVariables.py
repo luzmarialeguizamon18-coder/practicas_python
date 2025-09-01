@@ -24,4 +24,15 @@ print(f"mbaeteko {nombre}, tiene {edad }")
 #En este ejercicio mostras una logica matetica usando tu variable de edad ya declarada anteriormente, este muestra en la terminal: tenia 20 años hace dos años
 print (f"tenia {edad-2} años hace dos años")
 
-print("Cambio a la nube")
+#Tarea: Declarar 3 variaables dos que sean de tipo string(texto) y la otra de tipo int (entero) y hacer un solo print mostrando una frase en la terminal que incluya tus 3 variables
+yo = "luz"
+accion = "ir a comprar"
+tomate = 5
+print(f"{yo},tengo que {accion},{tomate} tomates en el supermecado")
+
+# COMANDOS DE GIT PARA SUBIR EL CODIGO A LA NUBE EN ORDEN
+
+# git status: te muestra los cambios que hay en tu proyecto, si no están en verde es que tenes cosas que agregar
+# git add . este comando te agrega todos los cambios pero hasta que no haces el commit siguiente y el push no se sube nada
+# git commit -m "" y entre las comillas envias un mensaje que describa los cambios que estas subiendo a gitlab (nube)
+# git push origin main (sube los cambios a gitlab con tu mensaje del commit)
