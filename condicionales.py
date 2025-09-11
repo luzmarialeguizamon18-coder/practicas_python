@@ -1,6 +1,6 @@
 ###############################CONDICIONALES###############################
 #Ejemplo:
-numeroUno = 1
+numeroUno = 10
 numeroDos = 2
 
 if(numeroUno > numeroDos): #Si numeroUno es mayor a numeroDos 
@@ -58,4 +58,18 @@ else:
 
 #El uso del elif sirve para hacer condiciones anidadas, es decir, ejecutar primero una condicion (if)
 #si no se cumple hacemos otra condicion (elif), la siguiente (elif), si no se cumple la siguiente otro (elif), y asi...
+    
+###########EJERCITACIÓN FINAL DE CONDICIONALES###########
+#Declarar una variable con tu edad y con un condicional validar si la variable existe y tambien si el valor es de tipo string (si se cumple la condicion 
+# que muestre en la terminal un mensaje indicando que tipo de valor tiene la variable)
+#Luego con otra condicion validar si existe y si el tipo de dato es un entero (si se cumple la condicion que muestre en la terminal un mensaje indicando 
+# que tipo de valor tiene la variable)
+#Si no se cumple ninguna de las otras condiciones mostrar en la terminal por que la variable llego al else
+edad = 51
+if(edad and type (edad) == str):
+    print(f"el tipo de valor de la variable es : {type(edad)}")
+elif(edad and type (edad) == int):
+    print(f"el tipo de valor de la variable es : {type(edad)}")
+else:
+    print(" llego al else por que el tipo de dato de la variable no es un int , tampoco str o quizas la variable no tiene un valor ")
     
