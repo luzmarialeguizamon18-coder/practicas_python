@@ -1,3 +1,6 @@
+import os 
+os.system("cls")
+
 ###############################CONDICIONALES###############################
 #Ejemplo:
 numeroUno = 10
@@ -22,7 +25,7 @@ else:
 
 
 
-#Declarame una variable que sea una string y despues haceme un condicional que pregunte si la variable que declaraste tiene el valor de un string (vale pedir ayuda)
+#Declarame una variable que sea un string y despues haceme un condicional que pregunte si la variable que declaraste tiene el valor de un string (vale pedir ayuda)
 #Si la condición se cumple mostrame en la terminal el valor de variable dentro de un texto
 hola = "hello"
 if(type(hola) == str):
@@ -59,7 +62,7 @@ else:
 #El uso del elif sirve para hacer condiciones anidadas, es decir, ejecutar primero una condicion (if)
 #si no se cumple hacemos otra condicion (elif), la siguiente (elif), si no se cumple la siguiente otro (elif), y asi...
     
-###########EJERCITACIÓN FINAL DE CONDICIONALES###########
+###########EJERCITACIÓN DE CONDICIONALES###########
 #Declarar una variable con tu edad y con un condicional validar si la variable existe y tambien si el valor es de tipo string (si se cumple la condicion 
 # que muestre en la terminal un mensaje indicando que tipo de valor tiene la variable)
 #Luego con otra condicion validar si existe y si el tipo de dato es un entero (si se cumple la condicion que muestre en la terminal un mensaje indicando 
@@ -72,4 +75,20 @@ elif(edad and type (edad) == int):
     print(f"el tipo de valor de la variable es : {type(edad)}")
 else:
     print(" llego al else por que el tipo de dato de la variable no es un int , tampoco str o quizas la variable no tiene un valor ")
-    
+
+###########EJERCITACIÓN DE FINAL CONDICIONALES###########
+
+#Tarea 1 → Declarar dos variables que sean int, luego validar si es mayor que la otra y si es asi hacer un print
+#luego cambiarle el valor a la variable tambien siendo un string y repetir la validacion. 
+#(Es 3 variables, es un solo condicional y se le cambia el valor a la variable del string, ayuda: el condicional tambien se puede guardar en una variable para reutilizarlo)
+variableUno = 32
+variableDos = 20
+validacion = variableDos < variableUno 
+if validacion:
+    print ("la variable uno es mayor 1")
+
+variableUno = 2
+variableDos = 3
+validacion = variableDos < variableUno 
+if validacion:
+    print ("la variable uno es mayor 2")
